@@ -1,6 +1,6 @@
 package prime1;
 import java.util.Scanner;
-public class TransactionInBank {
+class Bank{
 
 	    private int bal=10; 
 		private int pwd; 
@@ -66,11 +66,11 @@ public class TransactionInBank {
 			
 			switch(ch) {
 			
-			case 1: b.Deposite(1);
+			case 1: b.deposite(1);
 			break;
-			case 2: b.Widraw(12);
+			case 2: b.withdraw(12);
 			break;
-			case 3: b.CheckBalance( 9);
+			case 3: b.checkBalance( 9);
 			break;
 			default:
 				System.out.print("Invalid choice");
